@@ -9,7 +9,7 @@ LipidLynxX
     <h1>LipidLynxX Parser </h1>
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-12 col-md-6 mb-4 mb-md-0" style="z-index: 10000;">
+            <div class="col-12 col-md-6 mb-4 mb-md-0">
                 <p>
                 <h2>Lipid abbreviations</h2>
                 <form method="POST" action="{{ url_for('.parser') }}">
@@ -26,7 +26,7 @@ LipidLynxX
                     <input class="btn btn-primary" type="submit" value="Convert">
                 </form>
             </div>
-            <div class="col-12 col-md-6 col-lg-5 ml-md-auto text-left" style="z-index: 10000;">
+            <div class="col-12 col-md-6 col-lg-5 ml-md-auto text-left">
                 {% if out_dct != {} %}
                 <h2>Corresponding information</h2>
                 <p>LipidLynxX ID: {{ out_dct.id }}</p>
@@ -36,10 +36,10 @@ LipidLynxX
             </div>
         </div>
         <div class="row align-items-center">
-            <div class="col-12 col-md-6 mb-4 mb-md-0" style="z-index: 10000;">
+            <div class="col-12 col-md-6 mb-4 mb-md-0">
                 <p>
             </div>
-            <div class="col-12 col-md-6 col-lg-5 ml-md-auto text-left" style="z-index: 10000;">
+            <div class="col-12 col-md-6 col-lg-5 ml-md-auto text-left">
                 {% if out_dct != {} %}
                 <img alt="image" class="img-fluid" src=" {{ out_dct.img }} ">
                 {% endif %}

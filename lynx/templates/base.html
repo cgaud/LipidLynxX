@@ -1,3 +1,5 @@
+{% include 'lipidmaps_top.php' %}
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -55,34 +57,34 @@
             <div class="collapse navbar-collapse" id="navbarText">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
-                        <a class="nav-link fr-view text-light" href="{{ url_for('home') }}" target="_blank"> Home </a>
+                        <a class="nav-link fr-view text-light" href="{{ url_for('home') }}"> Home </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fr-view text-light" href="{{ url_for('converter') }}" target="_blank">
+                        <a class="nav-link fr-view text-light" href="{{ url_for('converter') }}">
                             Converter </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fr-view text-light" href="{{ url_for('equalizer') }}" target="_blank">
+                        <a class="nav-link fr-view text-light" href="{{ url_for('equalizer') }}">
                             Equalizer </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fr-view text-light" href="{{ url_for('linker') }}" target="_blank">
+                        <a class="nav-link fr-view text-light" href="{{ url_for('linker') }}">
                             Linker </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fr-view text-light" href="{{ url_for('user_guide') }}" target="_blank"> User
+                        <a class="nav-link fr-view text-light" href="{{ url_for('user_guide') }}"> User
                             Guide </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fr-view text-light" href="{{ url_for('nomenclature') }}" target="_blank">
+                        <a class="nav-link fr-view text-light" href="{{ url_for('nomenclature') }}">
                             Nomenclature </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fr-view text-light" href="{{ url_for('levels') }}" target="_blank"> Lipid
+                        <a class="nav-link fr-view text-light" href="{{ url_for('levels') }}"> Lipid
                             Levels </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link fr-view text-light" href="{{ url_for('about') }}" target="_blank"> About
+                        <a class="nav-link fr-view text-light" href="{{ url_for('about') }}"> About
                             LipidLynxX </a>
                     </li>
                 </ul>
@@ -164,3 +166,5 @@
 </body>
 
 </html>
+
+{% include 'lipidmaps_bottom.php' %}
